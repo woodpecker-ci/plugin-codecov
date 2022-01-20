@@ -1,0 +1,34 @@
+pipeline:
+  dryrun:
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      dockerfile: docker/Dockerfile.multiarch
+      dry_run: true
+      repo: woodpeckerci/plugin-codecov
+      platforms: linux/amd64,windows/amd64,darwin/amd64
+      tag: test
+    when:
+      event: pull_request
+
+  publish-next:
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      dockerfile: docker/Dockerfile.multiarch
+      repo: woodpeckerci/plugin-codecov
+      platforms: linux/amd64,windows/amd64,darwin/amd64
+      tag: next
+    secrets: [docker_username, docker_password]
+    when:
+      branch: master
+      event: push
+
+  publish-tag:
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      dockerfile: docker/Dockerfile.multiarch
+      repo: woodpeckerci/plugin-codecov
+      platforms: linux/amd64,windows/amd64,darwin/amd64
+      tag: [latest, "${DRONE_TAG}"]
+    secrets: [docker_username, docker_password]
+    when:
+      event: tag
