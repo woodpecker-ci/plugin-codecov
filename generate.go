@@ -6,7 +6,7 @@ import (
 )
 
 func (p *Plugin) generateArgs() []string {
-	args := []string{}
+	args := []string{"-Q", "woodpecker"}
 
 	if path, err := os.Getwd(); err == nil {
 		args = append(args, "--rootDir", path)
