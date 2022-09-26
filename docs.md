@@ -4,7 +4,8 @@ authors: Woodpecker Authors
 icon: https://woodpecker-ci.org/img/logo.svg
 description: Plugin to upload coverage reports to Codecov.io.
 tags: [coverage, testing]
-image: woodpeckerci/plugin-codecov
+containerImage: woodpeckerci/plugin-codecov
+containerImageUrl: https://hub.docker.com/r/woodpeckerci/plugin-codecov
 ---
 
 The Codecov plugin uploads coverage reports in one of the [supported formats](https://docs.codecov.com/docs/supported-report-formats) to [Codecov.io](https://about.codecov.io/).
