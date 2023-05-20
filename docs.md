@@ -1,5 +1,5 @@
 ---
-name: Codecov plugin
+name: Codecov
 authors: Woodpecker Authors
 icon: https://woodpecker-ci.org/img/logo.svg
 description: Plugin to upload coverage reports to Codecov.io.
