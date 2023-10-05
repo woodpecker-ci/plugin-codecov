@@ -6,7 +6,7 @@ RUN go build -ldflags '-s -w -extldflags "-static"' -o plugin-codecov
 RUN curl -Os https://uploader.codecov.io/v0.1.17/alpine/codecov
 RUN chmod +x codecov
 
-FROM alpine:3.15
+FROM alpine:3.18
 RUN apk add -U --no-cache ca-certificates
 
 COPY --from=build src/codecov /bin/
