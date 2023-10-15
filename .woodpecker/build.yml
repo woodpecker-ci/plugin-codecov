@@ -1,6 +1,6 @@
 steps:
   dryrun:
-    image: plugins/docker
+    image: woodpeckerci/plugin-docker-buildx:2.1.0
     settings:
       dockerfile: docker/Dockerfile.alpine
       dry_run: true
@@ -10,22 +10,22 @@ steps:
       event: pull_request
 
   publish-next:
-    image: plugins/docker
+    image: woodpeckerci/plugin-docker-buildx:2.1.0
     settings:
       dockerfile: docker/Dockerfile.alpine
       repo: woodpeckerci/plugin-codecov
-      tag: next-alpine
+      tags: next
     secrets: [docker_username, docker_password]
     when:
-      branch: master
+      branch: ${CI_REPO_DEFAULT_BRANCH}
       event: push
 
   publish-tag:
-    image: plugins/docker
+    image: woodpeckerci/plugin-docker-buildx:2.1.0
     settings:
       dockerfile: docker/Dockerfile.alpine
       repo: woodpeckerci/plugin-codecov
-      tag: [latest-alpine, "${CI_COMMIT_TAG}-alpine"]
+      tags: [latest, "${CI_COMMIT_TAG##v}"]
     secrets: [docker_username, docker_password]
     when:
       event: tag
