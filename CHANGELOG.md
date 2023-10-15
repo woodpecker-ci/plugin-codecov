@@ -1,0 +1,20 @@
+# Changelog
+
+## [2.0.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.0.4) - 2023-10-15
+
+### ❤️ Thanks to all contributors! ❤️
+
+@pat-s, @renovate[bot], @qwerty287, @6543
+
+### 📚 Documentation
+
+- Update docs [[#3](https://github.com/woodpecker-ci/plugin-codecov/pull/3)]
+
+### Misc
+
+- Update workflows and go mod [[#9](https://github.com/woodpecker-ci/plugin-codecov/pull/9)]
+- fix(deps): update module github.com/urfave/cli/v2 to v2.25.7 [[#8](https://github.com/woodpecker-ci/plugin-codecov/pull/8)]
+- chore(deps): update golang docker tag to v1.21 [[#6](https://github.com/woodpecker-ci/plugin-codecov/pull/6)]
+- chore(deps): update alpine docker tag to v3.18 [[#5](https://github.com/woodpecker-ci/plugin-codecov/pull/5)]
+- Configure Renovate [[#4](https://github.com/woodpecker-ci/plugin-codecov/pull/4)]
+- Rewrite [[#1](https://github.com/woodpecker-ci/plugin-codecov/pull/1)]
