@@ -1,12 +1,13 @@
 FROM golang:1.21 AS build
 
 # renovate: datasource=github-releases depName=codecov/uploader
-ARG UPLOADER_VERSION=0.1.17
+ARG UPLOADER_VERSION=v0.6.2
 
 WORKDIR /src
 COPY . .
 RUN go build -ldflags '-s -w -extldflags "-static"' -o plugin-codecov
-RUN curl -Os https://uploader.codecov.io/v${CODECOV_UPLOADER_VERSION}/alpine/codecov
+RUN if [ $(arch) = "aarch64" ] ; then curl -Os https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-aarch64; fi
+RUN if [ $(arch) = "x86_64" ] ; then curl -Os https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-alpine; fi
 RUN chmod +x codecov
 
 FROM alpine:3.18
