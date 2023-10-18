@@ -11,7 +11,7 @@ steps:
   dryrun:
     image: woodpeckerci/plugin-docker-buildx:2.1.0
     settings:
-      dockerfile: docker/Dockerfile
+      dockerfile: Dockerfile
       dry_run: true
       repo: woodpeckerci/plugin-codecov
       tag: test
@@ -21,7 +21,7 @@ steps:
   publish-next:
     image: woodpeckerci/plugin-docker-buildx:2.1.0
     settings:
-      dockerfile: docker/Dockerfile
+      dockerfile: Dockerfile
       repo: woodpeckerci/plugin-codecov
       tags: next
     secrets: [docker_username, docker_password]
@@ -32,7 +32,7 @@ steps:
   publish-tag:
     image: woodpeckerci/plugin-docker-buildx:2.1.0
     settings:
-      dockerfile: docker/Dockerfile
+      dockerfile: Dockerfile
       auto_tag: true
       platforms: *platforms
       repo: woodpeckerci/plugin-codecov
