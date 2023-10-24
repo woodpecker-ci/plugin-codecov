@@ -9,7 +9,7 @@ COPY . .
 RUN apk add -q --no-cache ca-certificates curl
 RUN go build -ldflags '-s -w -extldflags "-static"' -o plugin-codecov
 RUN if [ $(arch) = "aarch64" ] ; then curl -sLf https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-aarch64 -o codecov; fi
-RUN if [ $(arch) = "x86_64" ] ; then curl -sL https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-alpine -o codecov; fi
+RUN if [ $(arch) = "x86_64" ] ; then curl -sLf https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-linux -o codecov; fi
 RUN chmod +x codecov plugin-codecov
 
 FROM scratch
