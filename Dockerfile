@@ -1,4 +1,4 @@
-FROM golang:1.21
+FROM golang:1.21 as build
 
 # renovate: datasource=github-releases depName=codecov/uploader
 ARG UPLOADER_VERSION=v0.6.2
