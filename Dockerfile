@@ -6,7 +6,7 @@ ARG UPLOADER_VERSION=v0.6.2
 WORKDIR /src
 COPY . .
 #
-RUN apk add -U --no-cache ca-certificates
+RUN apk add -q --no-cache ca-certificates curl
 RUN go build -ldflags '-s -w -extldflags "-static"' -o plugin-codecov
 RUN if [ $(arch) = "aarch64" ] ; then curl -s https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-aarch64 -o codecov; fi
 RUN if [ $(arch) = "x86_64" ] ; then curl -s https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-alpine -o codecov; fi
