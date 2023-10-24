@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.2) - 2023-10-24
+
+### ❤️ Thanks to all contributors! ❤️
+
+@pat-s
+
+### 🐛 Bug Fixes
+
+- Fix: use linux binary instead of alpine one [[#15](https://github.com/woodpecker-ci/plugin-codecov/pull/15)]
+
 ## [2.1.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.1) - 2023-10-24
 
 ### ❤️ Thanks to all contributors! ❤️
