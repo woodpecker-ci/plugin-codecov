@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.1) - 2023-10-24
+
+### ❤️ Thanks to all contributors! ❤️
+
+@pat-s
+
+### 🐛 Bug Fixes
+
+- Fix codecov binary download: follow links [[#13](https://github.com/woodpecker-ci/plugin-codecov/pull/13)]
+
 ## [2.1.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.0) - 2023-10-24
 
 ### ❤️ Thanks to all contributors! ❤️
