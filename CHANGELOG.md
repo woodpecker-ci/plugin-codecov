@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.0.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.0.4) - 2023-10-15
+## [2.0.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.0.4) - 2023-10-24
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -12,6 +12,7 @@
 
 ### Misc
 
+- Build arm image and other improvements [[#10](https://github.com/woodpecker-ci/plugin-codecov/pull/10)]
 - Update workflows and go mod [[#9](https://github.com/woodpecker-ci/plugin-codecov/pull/9)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.25.7 [[#8](https://github.com/woodpecker-ci/plugin-codecov/pull/8)]
 - chore(deps): update golang docker tag to v1.21 [[#6](https://github.com/woodpecker-ci/plugin-codecov/pull/6)]
