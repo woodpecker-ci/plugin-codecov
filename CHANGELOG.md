@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2023-11-04
+## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2023-11-05
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -8,6 +8,7 @@
 
 ### Misc
 
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v2.2.0 [[#18](https://github.com/woodpecker-ci/plugin-codecov/pull/18)]
 - chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v0.7.0 [[#19](https://github.com/woodpecker-ci/plugin-codecov/pull/19)]
 
 ## [2.1.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.2) - 2023-10-24
