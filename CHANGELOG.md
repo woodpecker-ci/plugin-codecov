@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-01-01
+## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-01-08
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -8,6 +8,7 @@
 
 ### Misc
 
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v2.3.0 [[#28](https://github.com/woodpecker-ci/plugin-codecov/pull/28)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.27.1 [[#27](https://github.com/woodpecker-ci/plugin-codecov/pull/27)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.27.0 [[#26](https://github.com/woodpecker-ci/plugin-codecov/pull/26)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.26.0 [[#25](https://github.com/woodpecker-ci/plugin-codecov/pull/25)]
