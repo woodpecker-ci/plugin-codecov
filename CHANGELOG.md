@@ -1,10 +1,14 @@
 # Changelog
 
-## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-01-08
+## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-01-13
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@renovate[bot]
+@qwerty287, @renovate[bot]
+
+### 📚 Documentation
+
+- Add logo [[#29](https://github.com/woodpecker-ci/plugin-codecov/pull/29)]
 
 ### Misc
 
