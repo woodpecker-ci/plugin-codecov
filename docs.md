@@ -1,7 +1,7 @@
 ---
 name: Codecov
 authors: Woodpecker Authors
-icon: https://woodpecker-ci.org/img/logo.svg
+icon: https://raw.githubusercontent.com/woodpecker-ci/plugin-codecov/main/codecov.svg
 description: Plugin to upload coverage reports to Codecov.io.
 tags: [coverage, testing]
 containerImage: woodpeckerci/plugin-codecov
