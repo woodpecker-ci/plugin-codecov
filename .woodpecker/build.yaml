@@ -5,7 +5,7 @@ when:
       - ${CI_REPO_DEFAULT_BRANCH}
 
 variables:
-  - &platforms "linux/amd64,linux/arm64"
+  - &platforms 'linux/amd64,linux/arm64'
 
 steps:
   dryrun:
