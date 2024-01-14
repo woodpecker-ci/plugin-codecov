@@ -8,6 +8,7 @@
 
 ### 📚 Documentation
 
+- Fix author key [[#31](https://github.com/woodpecker-ci/plugin-codecov/pull/31)]
 - Add logo [[#29](https://github.com/woodpecker-ci/plugin-codecov/pull/29)]
 
 ### Misc
