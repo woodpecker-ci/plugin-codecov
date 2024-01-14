@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-01-13
+## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-01-14
 
 ### ❤️ Thanks to all contributors! ❤️
 
