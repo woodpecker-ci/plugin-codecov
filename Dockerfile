@@ -19,4 +19,3 @@ COPY --from=build src/codecov /bin/
 COPY --from=build src/plugin-codecov /bin/
 
 ENTRYPOINT ["/bin/plugin-codecov"]
-
