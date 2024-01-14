@@ -13,6 +13,7 @@
 
 ### Misc
 
+- Enable `precommit` [[#30](https://github.com/woodpecker-ci/plugin-codecov/pull/30)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v2.3.0 [[#28](https://github.com/woodpecker-ci/plugin-codecov/pull/28)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.27.1 [[#27](https://github.com/woodpecker-ci/plugin-codecov/pull/27)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.27.0 [[#26](https://github.com/woodpecker-ci/plugin-codecov/pull/26)]
