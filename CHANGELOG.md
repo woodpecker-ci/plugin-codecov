@@ -4,7 +4,7 @@
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@qwerty287, @renovate[bot]
+@renovate[bot], @qwerty287
 
 ### 📚 Documentation
 
@@ -13,6 +13,7 @@
 
 ### Misc
 
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v3 [[#33](https://github.com/woodpecker-ci/plugin-codecov/pull/33)]
 - Use cleartext username [[#32](https://github.com/woodpecker-ci/plugin-codecov/pull/32)]
 - Enable `precommit` [[#30](https://github.com/woodpecker-ci/plugin-codecov/pull/30)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v2.3.0 [[#28](https://github.com/woodpecker-ci/plugin-codecov/pull/28)]
