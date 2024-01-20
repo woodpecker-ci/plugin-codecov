@@ -24,7 +24,8 @@ steps:
       dockerfile: Dockerfile
       repo: woodpeckerci/plugin-codecov
       tags: next
-    secrets: [docker_username, docker_password]
+      username: woodpeckerbot
+    secrets: [docker_password]
     when:
       branch: ${CI_REPO_DEFAULT_BRANCH}
       event: push
@@ -36,6 +37,7 @@ steps:
       auto_tag: true
       platforms: *platforms
       repo: woodpeckerci/plugin-codecov
-    secrets: [docker_username, docker_password]
+      username: woodpeckerbot
+    secrets: [docker_password]
     when:
       event: tag
