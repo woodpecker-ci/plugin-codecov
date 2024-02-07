@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-02-05
+## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-02-07
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -13,6 +13,7 @@
 
 ### Misc
 
+- [pre-commit.ci] pre-commit autoupdate [[#36](https://github.com/woodpecker-ci/plugin-codecov/pull/36)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v3.0.1 [[#35](https://github.com/woodpecker-ci/plugin-codecov/pull/35)]
 - chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v1.1.0 [[#34](https://github.com/woodpecker-ci/plugin-codecov/pull/34)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v3 [[#33](https://github.com/woodpecker-ci/plugin-codecov/pull/33)]
