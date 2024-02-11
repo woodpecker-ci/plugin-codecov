@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine as build
+FROM golang:1.22-alpine as build
 
 # renovate: datasource=github-releases depName=codecov/uploader
 ARG UPLOADER_VERSION=v0.7.1
