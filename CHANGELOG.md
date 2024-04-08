@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-04-01
+## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/2.1.3) - 2024-04-08
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -13,6 +13,7 @@
 
 ### Misc
 
+- chore(deps): update pre-commit hook pre-commit/pre-commit-hooks to v4.6.0 [[#44](https://github.com/woodpecker-ci/plugin-codecov/pull/44)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v3.2.1 [[#42](https://github.com/woodpecker-ci/plugin-codecov/pull/42)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.35.1 [[#41](https://github.com/woodpecker-ci/plugin-codecov/pull/41)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v3.2.0 [[#40](https://github.com/woodpecker-ci/plugin-codecov/pull/40)]
