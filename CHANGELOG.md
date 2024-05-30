@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.4) - 2024-05-30
+
+### Misc
+
+- chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.41.0 [[#53](https://github.com/woodpecker-ci/plugin-codecov/pull/53)]
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v1.1.2 [[#52](https://github.com/woodpecker-ci/plugin-codecov/pull/52)]
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v4 [[#51](https://github.com/woodpecker-ci/plugin-codecov/pull/51)]
+- chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.40.0 [[#49](https://github.com/woodpecker-ci/plugin-codecov/pull/49)]
+- fix(deps): update module github.com/urfave/cli/v2 to v2.27.2 [[#47](https://github.com/woodpecker-ci/plugin-codecov/pull/47)]
+
 ## [2.1.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.3) - 2024-04-21
 
 ### ❤️ Thanks to all contributors! ❤️
