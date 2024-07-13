@@ -9,7 +9,7 @@ variables:
 
 steps:
   dryrun:
-    image: woodpeckerci/plugin-docker-buildx:4.0.0
+    image: woodpeckerci/plugin-docker-buildx:4.1.0
     settings:
       dockerfile: Dockerfile
       dry_run: true
@@ -19,7 +19,7 @@ steps:
       event: pull_request
 
   publish-next:
-    image: woodpeckerci/plugin-docker-buildx:4.0.0
+    image: woodpeckerci/plugin-docker-buildx:4.1.0
     settings:
       dockerfile: Dockerfile
       repo: woodpeckerci/plugin-codecov
@@ -31,7 +31,7 @@ steps:
       event: push
 
   publish-tag:
-    image: woodpeckerci/plugin-docker-buildx:4.0.0
+    image: woodpeckerci/plugin-docker-buildx:4.1.0
     settings:
       dockerfile: Dockerfile
       auto_tag: true
