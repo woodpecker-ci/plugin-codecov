@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.1.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.4) - 2024-05-30
+## [2.1.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.4) - 2024-07-15
 
 ### Misc
 
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v4.1.0 [[#56](https://github.com/woodpecker-ci/plugin-codecov/pull/56)]
 - chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.41.0 [[#53](https://github.com/woodpecker-ci/plugin-codecov/pull/53)]
 - chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v1.1.2 [[#52](https://github.com/woodpecker-ci/plugin-codecov/pull/52)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v4 [[#51](https://github.com/woodpecker-ci/plugin-codecov/pull/51)]
