@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.5](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.5) - 2024-07-21
+
+### Misc
+
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v4.2.0 [[#57](https://github.com/woodpecker-ci/plugin-codecov/pull/57)]
+
 ## [2.1.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.4) - 2024-07-15
 
 ### Misc
