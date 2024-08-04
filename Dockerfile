@@ -1,7 +1,7 @@
 FROM golang:1.22-alpine as build
 
 # renovate: datasource=github-releases depName=codecov/uploader
-ARG UPLOADER_VERSION=v0.7.3
+ARG UPLOADER_VERSION=v0.8.0
 
 WORKDIR /src
 COPY . .
