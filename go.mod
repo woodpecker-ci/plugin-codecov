@@ -2,7 +2,7 @@ module github.com/woodpecker-ci/plugin-codecov
 
 go 1.21
 
-require github.com/urfave/cli/v2 v2.27.3
+require github.com/urfave/cli/v2 v2.27.4
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
