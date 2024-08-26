@@ -5,24 +5,24 @@ when:
       - ${CI_REPO_DEFAULT_BRANCH}
 
 variables:
+  - &repo 'woodpeckerci/plugin-codecov'
   - &platforms 'linux/amd64,linux/arm64'
+  - &buildx-plugin 'woodpeckerci/plugin-docker-buildx:4.2.0'
 
 steps:
   dryrun:
-    image: woodpeckerci/plugin-docker-buildx:4.2.0
+    image: *buildx-plugin
     settings:
-      dockerfile: Dockerfile
       dry_run: true
-      repo: woodpeckerci/plugin-codecov
+      repo: *repo
       tag: test
     when:
       event: pull_request
 
   publish-next:
-    image: woodpeckerci/plugin-docker-buildx:4.2.0
+    image: *buildx-plugin
     settings:
-      dockerfile: Dockerfile
-      repo: woodpeckerci/plugin-codecov
+      repo: *repo
       tags: next
       username: woodpeckerbot
     secrets: [docker_password]
@@ -31,12 +31,11 @@ steps:
       event: push
 
   publish-tag:
-    image: woodpeckerci/plugin-docker-buildx:4.2.0
+    image: *buildx-plugin
     settings:
-      dockerfile: Dockerfile
       auto_tag: true
       platforms: *platforms
-      repo: woodpeckerci/plugin-codecov
+      repo: *repo
       username: woodpeckerbot
     secrets: [docker_password]
     when:
