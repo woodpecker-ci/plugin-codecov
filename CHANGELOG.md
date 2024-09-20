@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.6](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.6) - 2024-09-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@qwerty287
+
+### Misc
+
+- Clean up plugin [[#67](https://github.com/woodpecker-ci/plugin-codecov/pull/67)]
+
 ## [2.1.5](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.5) - 2024-09-20
 
 ### ❤️ Thanks to all contributors! ❤️
