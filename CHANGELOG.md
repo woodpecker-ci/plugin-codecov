@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.5](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.5) - 2024-09-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@6543
+
+### Misc
+
+- Update pipeline conf [[#65](https://github.com/woodpecker-ci/plugin-codecov/pull/65)]
+- chore(deps): update golang docker tag to v1.23 [[#64](https://github.com/woodpecker-ci/plugin-codecov/pull/64)]
+- fix(deps): update module github.com/urfave/cli/v2 to v2.27.4 [[#63](https://github.com/woodpecker-ci/plugin-codecov/pull/63)]
+- chore(deps): update dependency codecov/uploader to v0.8.0 [[#61](https://github.com/woodpecker-ci/plugin-codecov/pull/61)]
+- fix(deps): update module github.com/urfave/cli/v2 to v2.27.3 [[#60](https://github.com/woodpecker-ci/plugin-codecov/pull/60)]
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v1.2.0 [[#59](https://github.com/woodpecker-ci/plugin-codecov/pull/59)]
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v4.2.0 [[#57](https://github.com/woodpecker-ci/plugin-codecov/pull/57)]
+
 ## [2.1.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.4) - 2024-07-15
 
 ### Misc
