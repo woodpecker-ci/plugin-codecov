@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.6](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.6) - 2024-10-15
+## [2.1.6](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.6) - 2024-11-09
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -16,6 +16,7 @@
 
 ### Misc
 
+- [pre-commit.ci] pre-commit autoupdate [[#76](https://github.com/woodpecker-ci/plugin-codecov/pull/76)]
 - Clean up plugin [[#67](https://github.com/woodpecker-ci/plugin-codecov/pull/67)]
 
 ## [2.1.5](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.5) - 2024-09-20
