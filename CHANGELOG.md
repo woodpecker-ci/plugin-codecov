@@ -8,6 +8,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3.1.0 [[#82](https://github.com/woodpecker-ci/plugin-codecov/pull/82)]
 - chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3 [[#80](https://github.com/woodpecker-ci/plugin-codecov/pull/80)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v5.1.0 [[#81](https://github.com/woodpecker-ci/plugin-codecov/pull/81)]
 - chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.43.0 [[#78](https://github.com/woodpecker-ci/plugin-codecov/pull/78)]
