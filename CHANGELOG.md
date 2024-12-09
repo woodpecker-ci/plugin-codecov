@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.1.6](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.6) - 2024-12-08
+
+### ❤️ Thanks to all contributors! ❤️
+
+@qwerty287
+
+### 📦️ Dependency
+
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3.1.0 [[#82](https://github.com/woodpecker-ci/plugin-codecov/pull/82)]
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3 [[#80](https://github.com/woodpecker-ci/plugin-codecov/pull/80)]
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v5.1.0 [[#81](https://github.com/woodpecker-ci/plugin-codecov/pull/81)]
+- chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.43.0 [[#78](https://github.com/woodpecker-ci/plugin-codecov/pull/78)]
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v2.1.1 [[#77](https://github.com/woodpecker-ci/plugin-codecov/pull/77)]
+- fix(deps): update module github.com/urfave/cli/v2 to v2.27.5 [[#75](https://github.com/woodpecker-ci/plugin-codecov/pull/75)]
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v5 [[#74](https://github.com/woodpecker-ci/plugin-codecov/pull/74)]
+- chore(deps): update pre-commit hook pre-commit/pre-commit-hooks to v5 [[#72](https://github.com/woodpecker-ci/plugin-codecov/pull/72)]
+- chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.42.0 [[#71](https://github.com/woodpecker-ci/plugin-codecov/pull/71)]
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v2 [[#69](https://github.com/woodpecker-ci/plugin-codecov/pull/69)]
+
+### Misc
+
+- [pre-commit.ci] pre-commit autoupdate [[#76](https://github.com/woodpecker-ci/plugin-codecov/pull/76)]
+- Clean up plugin [[#67](https://github.com/woodpecker-ci/plugin-codecov/pull/67)]
+
 ## [2.1.5](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.5) - 2024-09-20
 
 ### ❤️ Thanks to all contributors! ❤️
