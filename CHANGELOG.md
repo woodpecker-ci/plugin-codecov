@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2024-12-29
+
+### 📦️ Dependency
+
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3.1.1 [[#83](https://github.com/woodpecker-ci/plugin-codecov/pull/83)]
+
 ## [2.1.6](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.6) - 2024-12-08
 
 ### ❤️ Thanks to all contributors! ❤️
