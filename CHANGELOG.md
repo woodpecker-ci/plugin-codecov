@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-03-06
+## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-03-15
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.0 [[#94](https://github.com/woodpecker-ci/plugin-codecov/pull/94)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.27.6 [[#93](https://github.com/woodpecker-ci/plugin-codecov/pull/93)]
 - chore(deps): update golang docker tag to v1.24 [[#91](https://github.com/woodpecker-ci/plugin-codecov/pull/91)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v5.2.1 [[#90](https://github.com/woodpecker-ci/plugin-codecov/pull/90)]
