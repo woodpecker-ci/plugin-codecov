@@ -4,6 +4,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.1 [[#95](https://github.com/woodpecker-ci/plugin-codecov/pull/95)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.0 [[#94](https://github.com/woodpecker-ci/plugin-codecov/pull/94)]
 - fix(deps): update module github.com/urfave/cli/v2 to v2.27.6 [[#93](https://github.com/woodpecker-ci/plugin-codecov/pull/93)]
 - chore(deps): update golang docker tag to v1.24 [[#91](https://github.com/woodpecker-ci/plugin-codecov/pull/91)]
