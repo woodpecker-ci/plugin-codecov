@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-03-22
+## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-03-23
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook adrienverge/yamllint to v1.37.0 [[#97](https://github.com/woodpecker-ci/plugin-codecov/pull/97)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.2 [[#96](https://github.com/woodpecker-ci/plugin-codecov/pull/96)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.1 [[#95](https://github.com/woodpecker-ci/plugin-codecov/pull/95)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.0 [[#94](https://github.com/woodpecker-ci/plugin-codecov/pull/94)]
