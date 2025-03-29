@@ -7,7 +7,7 @@ when:
 variables:
   - &repo 'woodpeckerci/plugin-codecov'
   - &platforms 'linux/amd64,linux/arm64'
-  - &buildx-plugin 'woodpeckerci/plugin-docker-buildx:5.2.1'
+  - &buildx-plugin 'woodpeckerci/plugin-docker-buildx:5.2.2'
 
 steps:
   dryrun:
