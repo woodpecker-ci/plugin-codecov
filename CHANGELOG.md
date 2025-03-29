@@ -1,9 +1,11 @@
 # Changelog
 
-## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-03-23
+## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-03-29
 
 ### 📦️ Dependency
 
+- chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3.1.4 [[#99](https://github.com/woodpecker-ci/plugin-codecov/pull/99)]
+- chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v5.2.2 [[#98](https://github.com/woodpecker-ci/plugin-codecov/pull/98)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.37.0 [[#97](https://github.com/woodpecker-ci/plugin-codecov/pull/97)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.2 [[#96](https://github.com/woodpecker-ci/plugin-codecov/pull/96)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.36.1 [[#95](https://github.com/woodpecker-ci/plugin-codecov/pull/95)]
