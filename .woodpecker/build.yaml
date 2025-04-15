@@ -28,8 +28,8 @@ steps:
       password:
         from_secret: docker_password
     when:
-      branch: ${CI_REPO_DEFAULT_BRANCH}
-      event: push
+      - branch: ${CI_REPO_DEFAULT_BRANCH}
+        event: push
 
   - name: publish-tag
     image: *buildx-plugin
