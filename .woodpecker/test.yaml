@@ -18,16 +18,16 @@ when:
     path: *when_path
 
 steps:
-  vendor:
+  - name: vendor
     image: *golang_image
     commands:
       - go mod vendor
     when:
-      path:
-        - <<: *when_path
-        - '.woodpecker/**'
+      - path:
+          - <<: *when_path
+          - '.woodpecker/**'
 
-  lint:
+  - name: lint
     depends_on:
       - vendor
     image: *golang_image
@@ -35,7 +35,7 @@ steps:
       - make lint
     when: *when
 
-  test:
+  - name: test
     depends_on:
       - vendor
     image: *golang_image
