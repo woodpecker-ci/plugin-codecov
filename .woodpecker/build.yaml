@@ -5,9 +5,9 @@ when:
       - ${CI_REPO_DEFAULT_BRANCH}
 
 variables:
+  - &buildx-plugin 'docker.io/woodpeckerci/plugin-docker-buildx:5.2.2'
   - &repo 'woodpeckerci/plugin-codecov'
   - &platforms 'linux/amd64,linux/arm64'
-  - &buildx-plugin 'woodpeckerci/plugin-docker-buildx:5.2.2'
 
 steps:
   dryrun:
