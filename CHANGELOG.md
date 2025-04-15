@@ -8,6 +8,7 @@
 
 ### 📦️ Dependency
 
+- fix(deps): update module github.com/urfave/cli/v2 to v3 [[#100](https://github.com/woodpecker-ci/plugin-codecov/pull/100)]
 - chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3.1.4 [[#99](https://github.com/woodpecker-ci/plugin-codecov/pull/99)]
 - chore(deps): update woodpeckerci/plugin-docker-buildx docker tag to v5.2.2 [[#98](https://github.com/woodpecker-ci/plugin-codecov/pull/98)]
 - chore(deps): update pre-commit hook adrienverge/yamllint to v1.37.0 [[#97](https://github.com/woodpecker-ci/plugin-codecov/pull/97)]
