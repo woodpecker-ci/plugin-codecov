@@ -1,0 +1,62 @@
+version: '2'
+linters:
+  default: none
+  enable:
+    - bidichk
+    - errcheck
+    - errorlint
+    - forbidigo
+    - govet
+    - ineffassign
+    - misspell
+    - revive
+    - staticcheck
+    - unused
+    - whitespace
+    - zerologlint
+  settings:
+    errorlint:
+      errorf-multi: true
+    forbidigo:
+      forbid:
+        - pattern: context\.WithCancel$
+        - pattern: ^print.*$
+        - pattern: panic
+    misspell:
+      locale: US
+  exclusions:
+    generated: lax
+    presets:
+      - comments
+      - common-false-positives
+      - legacy
+      - std-error-handling
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  enable:
+    - gci
+    - gofmt
+    - gofumpt
+  settings:
+    gci:
+      sections:
+        - standard
+        - default
+        - prefix(go.woodpecker-ci.org/woodpecker)
+      custom-order: true
+    gofmt:
+      simplify: true
+      rewrite-rules:
+        - pattern: interface{}
+          replacement: any
+    gofumpt:
+      extra-rules: true
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
