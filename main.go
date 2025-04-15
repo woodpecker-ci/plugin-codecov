@@ -1,16 +1,17 @@
 package main
 
 import (
+	"context"
 	"log"
 	"os"
 
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var version = "next"
 
 func main() {
-	app := cli.NewApp()
+	app := &cli.Command{}
 	app.Name = "codecov plugin"
 	app.Usage = "codecov plugin"
 	app.Action = run
@@ -19,67 +20,67 @@ func main() {
 		&cli.StringFlag{
 			Name:    "token",
 			Usage:   "token for authentication",
-			EnvVars: []string{"PLUGIN_TOKEN", "CODECOV_TOKEN"},
+			Sources: cli.EnvVars("PLUGIN_TOKEN", "CODECOV_TOKEN"),
 		},
 		&cli.StringFlag{
 			Name:    "name",
 			Usage:   "name for coverage upload",
-			EnvVars: []string{"PLUGIN_NAME"},
+			Sources: cli.EnvVars("PLUGIN_NAME"),
 		},
 		&cli.StringSliceFlag{
 			Name:    "path",
 			Usage:   "paths for searching for coverage files",
-			EnvVars: []string{"PLUGIN_PATHS"},
+			Sources: cli.EnvVars("PLUGIN_PATHS"),
 		},
 		&cli.StringSliceFlag{
 			Name:    "file",
 			Usage:   "files for coverage upload",
-			EnvVars: []string{"PLUGIN_FILES"},
+			Sources: cli.EnvVars("PLUGIN_FILES"),
 		},
 		&cli.StringSliceFlag{
 			Name:    "flag",
 			Usage:   "flags for coverage upload",
-			EnvVars: []string{"PLUGIN_FLAGS"},
+			Sources: cli.EnvVars("PLUGIN_FLAGS"),
 		},
 		&cli.StringSliceFlag{
 			Name:    "env",
 			Usage:   "inject environment",
-			EnvVars: []string{"PLUGIN_ENV"},
+			Sources: cli.EnvVars("PLUGIN_ENV"),
 		},
 		&cli.BoolFlag{
 			Name:    "verbose",
 			Usage:   "print verbose output",
-			EnvVars: []string{"PLUGIN_VERBOSE"},
+			Sources: cli.EnvVars("PLUGIN_VERBOSE"),
 		},
 		&cli.BoolFlag{
 			Name:    "dry_run",
 			Usage:   "dont upload files",
-			EnvVars: []string{"PLUGIN_DRY_RUN"},
+			Sources: cli.EnvVars("PLUGIN_DRY_RUN"),
 		},
 		&cli.BoolFlag{
 			Name:    "required",
 			Usage:   "errors on failed upload",
-			EnvVars: []string{"PLUGIN_REQUIRED"},
+			Sources: cli.EnvVars("PLUGIN_REQUIRED"),
 			Value:   true,
 		},
 	}
 
-	if err := app.Run(os.Args); err != nil {
+	if err := app.Run(context.Background(), os.Args); err != nil {
 		log.Fatal(err)
 	}
 }
 
-func run(c *cli.Context) error {
+func run(_ context.Context, cmd *cli.Command) error {
 	plugin := Plugin{
-		Token:    c.String("token"),
-		Name:     c.String("name"),
-		Paths:    c.StringSlice("path"),
-		Files:    c.StringSlice("file"),
-		Flags:    c.StringSlice("flag"),
-		Env:      c.StringSlice("env"),
-		Verbose:  c.Bool("verbose"),
-		DryRun:   c.Bool("dry_run"),
-		Required: c.Bool("required"),
+		Token:    cmd.String("token"),
+		Name:     cmd.String("name"),
+		Paths:    cmd.StringSlice("path"),
+		Files:    cmd.StringSlice("file"),
+		Flags:    cmd.StringSlice("flag"),
+		Env:      cmd.StringSlice("env"),
+		Verbose:  cmd.Bool("verbose"),
+		DryRun:   cmd.Bool("dry_run"),
+		Required: cmd.Bool("required"),
 	}
 
 	return plugin.Exec()
