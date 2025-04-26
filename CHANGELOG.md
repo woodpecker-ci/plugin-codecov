@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-04-20
+## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-04-26
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -8,6 +8,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.1.5 [[#107](https://github.com/woodpecker-ci/plugin-codecov/pull/107)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.2.0 [[#106](https://github.com/woodpecker-ci/plugin-codecov/pull/106)]
 - chore(deps): update woodpeckerci/plugin-ready-release-go docker tag to v3.2.0 [[#105](https://github.com/woodpecker-ci/plugin-codecov/pull/105)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.1.2 [[#104](https://github.com/woodpecker-ci/plugin-codecov/pull/104)]
