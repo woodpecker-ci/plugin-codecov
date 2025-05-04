@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook adrienverge/yamllint to v1.37.1 [[#112](https://github.com/woodpecker-ci/plugin-codecov/pull/112)]
 - chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.0.1 [[#111](https://github.com/woodpecker-ci/plugin-codecov/pull/111)]
 - chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6 [[#110](https://github.com/woodpecker-ci/plugin-codecov/pull/110)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.3.2 [[#108](https://github.com/woodpecker-ci/plugin-codecov/pull/108)]
