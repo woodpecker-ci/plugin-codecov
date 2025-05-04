@@ -1,25 +1,25 @@
+variables:
+  - &buildx-plugin 'docker.io/woodpeckerci/plugin-docker-buildx:5.2.2'
+  - &repo 'woodpeckerci/plugin-codecov'
+  - &platforms 'linux/amd64,linux/arm64'
+
 when:
   - event: [pull_request, tag, cron]
   - event: push
     branch:
       - ${CI_REPO_DEFAULT_BRANCH}
 
-variables:
-  - &repo 'woodpeckerci/plugin-codecov'
-  - &platforms 'linux/amd64,linux/arm64'
-  - &buildx-plugin 'woodpeckerci/plugin-docker-buildx:5.2.2'
-
 steps:
-  dryrun:
+  - name: dryrun
     image: *buildx-plugin
     settings:
       dry_run: true
       repo: *repo
       tag: test
     when:
-      event: pull_request
+      - event: pull_request
 
-  publish-next:
+  - name: publish-next
     image: *buildx-plugin
     settings:
       repo: *repo
@@ -28,10 +28,10 @@ steps:
       password:
         from_secret: docker_password
     when:
-      branch: ${CI_REPO_DEFAULT_BRANCH}
-      event: push
+      - branch: ${CI_REPO_DEFAULT_BRANCH}
+        event: push
 
-  publish-tag:
+  - name: publish-tag
     image: *buildx-plugin
     settings:
       auto_tag: true
@@ -41,4 +41,4 @@ steps:
       password:
         from_secret: docker_password
     when:
-      event: tag
+      - event: tag
