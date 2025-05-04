@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.0.1 [[#111](https://github.com/woodpecker-ci/plugin-codecov/pull/111)]
 - chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6 [[#110](https://github.com/woodpecker-ci/plugin-codecov/pull/110)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.3.2 [[#108](https://github.com/woodpecker-ci/plugin-codecov/pull/108)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.1.5 [[#107](https://github.com/woodpecker-ci/plugin-codecov/pull/107)]
