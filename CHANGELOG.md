@@ -1,10 +1,14 @@
 # Changelog
 
-## [2.1.7](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.1.7) - 2025-04-29
+## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-05-04
 
 ### ❤️ Thanks to all contributors! ❤️
 
 @xoxys
+
+### 📈 Enhancement
+
+- Unify readme structure [[#103](https://github.com/woodpecker-ci/plugin-codecov/pull/103)]
 
 ### 📦️ Dependency
 
