@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.2.0 [[#120](https://github.com/woodpecker-ci/plugin-codecov/pull/120)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.6.2 [[#119](https://github.com/woodpecker-ci/plugin-codecov/pull/119)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.3.8 [[#118](https://github.com/woodpecker-ci/plugin-codecov/pull/118)]
 - chore(deps): update dependency go to v1.24.4 [[#117](https://github.com/woodpecker-ci/plugin-codecov/pull/117)]
