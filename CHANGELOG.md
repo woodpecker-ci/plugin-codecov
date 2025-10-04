@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.0.3 [[#139](https://github.com/woodpecker-ci/plugin-codecov/pull/139)]
 - chore(deps): update docker.io/woodpeckerci/plugin-editorconfig-checker docker tag to v0.3.2 [[#140](https://github.com/woodpecker-ci/plugin-codecov/pull/140)]
 - chore(deps): update pre-commit hook hadolint/hadolint to v2.14.0 [[#138](https://github.com/woodpecker-ci/plugin-codecov/pull/138)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.5.0 [[#137](https://github.com/woodpecker-ci/plugin-codecov/pull/137)]
