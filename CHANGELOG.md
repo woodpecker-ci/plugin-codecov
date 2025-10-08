@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-10-04
+## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-10-08
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update dependency go to v1.25.2 [[#141](https://github.com/woodpecker-ci/plugin-codecov/pull/141)]
 - chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.0.3 [[#139](https://github.com/woodpecker-ci/plugin-codecov/pull/139)]
 - chore(deps): update docker.io/woodpeckerci/plugin-editorconfig-checker docker tag to v0.3.2 [[#140](https://github.com/woodpecker-ci/plugin-codecov/pull/140)]
 - chore(deps): update pre-commit hook hadolint/hadolint to v2.14.0 [[#138](https://github.com/woodpecker-ci/plugin-codecov/pull/138)]
