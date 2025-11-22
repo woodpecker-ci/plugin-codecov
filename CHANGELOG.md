@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-11-17
+## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-11-22
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.46.0 [[#150](https://github.com/woodpecker-ci/plugin-codecov/pull/150)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.6.1 [[#149](https://github.com/woodpecker-ci/plugin-codecov/pull/149)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.6.2 [[#148](https://github.com/woodpecker-ci/plugin-codecov/pull/148)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.6.0 [[#147](https://github.com/woodpecker-ci/plugin-codecov/pull/147)]
