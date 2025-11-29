@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.7.2 [[#152](https://github.com/woodpecker-ci/plugin-codecov/pull/152)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.7.1 [[#151](https://github.com/woodpecker-ci/plugin-codecov/pull/151)]
 - chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.46.0 [[#150](https://github.com/woodpecker-ci/plugin-codecov/pull/150)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.6.1 [[#149](https://github.com/woodpecker-ci/plugin-codecov/pull/149)]
