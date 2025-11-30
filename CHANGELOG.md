@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-11-29
+## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-11-30
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.7.3 [[#153](https://github.com/woodpecker-ci/plugin-codecov/pull/153)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.7.2 [[#152](https://github.com/woodpecker-ci/plugin-codecov/pull/152)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.7.1 [[#151](https://github.com/woodpecker-ci/plugin-codecov/pull/151)]
 - chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.46.0 [[#150](https://github.com/woodpecker-ci/plugin-codecov/pull/150)]
