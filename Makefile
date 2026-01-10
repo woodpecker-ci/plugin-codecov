@@ -43,6 +43,7 @@ install-gofumpt:
 		go install mvdan.cc/gofumpt@latest; \
 	fi ; \
 
+.PHONY: install-tools
 install-tools: install-golangci install-gofumpt ## Install development tools
 
 .PHONY: clean
