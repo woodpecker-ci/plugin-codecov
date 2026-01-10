@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.1) - 2026-01-10
+
+### 📦️ Dependency
+
+- chore(deps): update pre-commit non-major [[#160](https://github.com/woodpecker-ci/plugin-codecov/pull/160)]
+
 ## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2026-01-10
 
 ### ❤️ Thanks to all contributors! ❤️
