@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2025-12-13
+## [2.2.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.0) - 2026-01-10
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.0.4 [[#158](https://github.com/woodpecker-ci/plugin-codecov/pull/158)]
 - chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.47.0 [[#157](https://github.com/woodpecker-ci/plugin-codecov/pull/157)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.7.2 [[#156](https://github.com/woodpecker-ci/plugin-codecov/pull/156)]
 - chore(deps): update pre-commit non-major [[#155](https://github.com/woodpecker-ci/plugin-codecov/pull/155)]
