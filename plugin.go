@@ -21,7 +21,7 @@ type Plugin struct {
 }
 
 func (p *Plugin) Exec() error {
-	if !p.DryRun {
+	if !p.DryRun && p.Token != "" {
 		return errors.New("you must provide a token")
 	}
 
