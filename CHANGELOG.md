@@ -4,6 +4,7 @@
 
 ### 📦️ Dependency
 
+- chore(config): migrate Renovate config [[#167](https://github.com/woodpecker-ci/plugin-codecov/pull/167)]
 - chore(deps): update pre-commit non-major [[#166](https://github.com/woodpecker-ci/plugin-codecov/pull/166)]
 - chore(deps): update pre-commit hook mrtazz/checkmake to v0.3.2 [[#163](https://github.com/woodpecker-ci/plugin-codecov/pull/163)]
 - chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v3.4.1 [[#162](https://github.com/woodpecker-ci/plugin-codecov/pull/162)]
