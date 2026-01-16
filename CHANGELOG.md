@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.2.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.1) - 2026-01-15
+## [2.2.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.1) - 2026-01-16
 
 ### 📦️ Dependency
 
+- chore(deps): update dependency go to v1.25.6 [[#168](https://github.com/woodpecker-ci/plugin-codecov/pull/168)]
 - chore(config): migrate Renovate config [[#167](https://github.com/woodpecker-ci/plugin-codecov/pull/167)]
 - chore(deps): update pre-commit non-major [[#166](https://github.com/woodpecker-ci/plugin-codecov/pull/166)]
 - chore(deps): update pre-commit hook mrtazz/checkmake to v0.3.2 [[#163](https://github.com/woodpecker-ci/plugin-codecov/pull/163)]
