@@ -1,6 +1,14 @@
 # Changelog
 
-## [2.2.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.2) - 2026-01-19
+## [2.2.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.2) - 2026-01-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@qwerty287
+
+### 🐛 Bug Fixes
+
+- Fix token validation [[#171](https://github.com/woodpecker-ci/plugin-codecov/pull/171)]
 
 ### 📦️ Dependency
 
