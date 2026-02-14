@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update golang docker tag to v1.26 [[#178](https://github.com/woodpecker-ci/plugin-codecov/pull/178)]
 - chore(deps): update docker.io/golang docker tag to v1.26 [[#177](https://github.com/woodpecker-ci/plugin-codecov/pull/177)]
 - chore(deps): update dependency go to v1.26.0 [[#176](https://github.com/woodpecker-ci/plugin-codecov/pull/176)]
 - chore(deps): update dependency go to v1.25.7 [[#175](https://github.com/woodpecker-ci/plugin-codecov/pull/175)]
