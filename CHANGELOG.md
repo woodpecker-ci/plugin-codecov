@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.3.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.0) - 2026-02-14
+## [2.3.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.0) - 2026-02-21
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.10.1 [[#180](https://github.com/woodpecker-ci/plugin-codecov/pull/180)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.9.0 [[#179](https://github.com/woodpecker-ci/plugin-codecov/pull/179)]
 - chore(deps): update golang docker tag to v1.26 [[#178](https://github.com/woodpecker-ci/plugin-codecov/pull/178)]
 - chore(deps): update docker.io/golang docker tag to v1.26 [[#177](https://github.com/woodpecker-ci/plugin-codecov/pull/177)]
