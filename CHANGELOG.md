@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.3.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.0) - 2026-02-28
+
+### ❤️ Thanks to all contributors! ❤️
+
+@qwerty287
+
+### 📈 Enhancement
+
+- Fix Dockerfile keyword casing [[#172](https://github.com/woodpecker-ci/plugin-codecov/pull/172)]
+
+### 📦️ Dependency
+
+- chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v4 [[#181](https://github.com/woodpecker-ci/plugin-codecov/pull/181)]
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.10.1 [[#180](https://github.com/woodpecker-ci/plugin-codecov/pull/180)]
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.9.0 [[#179](https://github.com/woodpecker-ci/plugin-codecov/pull/179)]
+- chore(deps): update golang docker tag to v1.26 [[#178](https://github.com/woodpecker-ci/plugin-codecov/pull/178)]
+- chore(deps): update docker.io/golang docker tag to v1.26 [[#177](https://github.com/woodpecker-ci/plugin-codecov/pull/177)]
+- chore(deps): update dependency go to v1.26.0 [[#176](https://github.com/woodpecker-ci/plugin-codecov/pull/176)]
+- chore(deps): update dependency go to v1.25.7 [[#175](https://github.com/woodpecker-ci/plugin-codecov/pull/175)]
+- chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.8.1 [[#174](https://github.com/woodpecker-ci/plugin-codecov/pull/174)]
+
+### Misc
+
+- Don't recompile golangci [[#182](https://github.com/woodpecker-ci/plugin-codecov/pull/182)]
+
 ## [2.2.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.2) - 2026-01-20
 
 ### ❤️ Thanks to all contributors! ❤️
