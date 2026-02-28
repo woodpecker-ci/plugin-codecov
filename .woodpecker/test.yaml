@@ -30,7 +30,7 @@ steps:
   - name: lint
     depends_on:
       - vendor
-    image: *golang_image
+    image: golangci/golangci-lint:v2.10.1
     commands:
       - make lint
     when: *when
