@@ -21,6 +21,10 @@
 - chore(deps): update dependency go to v1.25.7 [[#175](https://github.com/woodpecker-ci/plugin-codecov/pull/175)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.8.1 [[#174](https://github.com/woodpecker-ci/plugin-codecov/pull/174)]
 
+### Misc
+
+- Don't recompile golangci [[#182](https://github.com/woodpecker-ci/plugin-codecov/pull/182)]
+
 ## [2.2.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.2) - 2026-01-20
 
 ### ❤️ Thanks to all contributors! ❤️
