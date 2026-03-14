@@ -1,5 +1,37 @@
 # Changelog
 
+## [2.3.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.0) - 2026-03-14
+
+### ❤️ Thanks to all contributors! ❤️
+
+@qwerty287
+
+### 📈 Enhancement
+
+- Fix Dockerfile keyword casing [[#172](https://github.com/woodpecker-ci/plugin-codecov/pull/172)]
+
+### 📦️ Dependency
+
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.11.3 [[#189](https://github.com/woodpecker-ci/plugin-codecov/pull/189)]
+- chore(deps): update golangci/golangci-lint docker tag to v2.11.3 [[#188](https://github.com/woodpecker-ci/plugin-codecov/pull/188)]
+- chore(deps): update pre-commit non-major [[#186](https://github.com/woodpecker-ci/plugin-codecov/pull/186)]
+- chore(deps): update golangci/golangci-lint docker tag to v2.11.2 [[#187](https://github.com/woodpecker-ci/plugin-codecov/pull/187)]
+- chore(deps): update golangci/golangci-lint docker tag to v2.11.1 [[#185](https://github.com/woodpecker-ci/plugin-codecov/pull/185)]
+- chore(deps): update dependency go to v1.26.1 [[#184](https://github.com/woodpecker-ci/plugin-codecov/pull/184)]
+- fix(deps): update module github.com/urfave/cli/v3 to v3.7.0 [[#183](https://github.com/woodpecker-ci/plugin-codecov/pull/183)]
+- chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v4 [[#181](https://github.com/woodpecker-ci/plugin-codecov/pull/181)]
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.10.1 [[#180](https://github.com/woodpecker-ci/plugin-codecov/pull/180)]
+- chore(deps): update pre-commit hook golangci/golangci-lint to v2.9.0 [[#179](https://github.com/woodpecker-ci/plugin-codecov/pull/179)]
+- chore(deps): update golang docker tag to v1.26 [[#178](https://github.com/woodpecker-ci/plugin-codecov/pull/178)]
+- chore(deps): update docker.io/golang docker tag to v1.26 [[#177](https://github.com/woodpecker-ci/plugin-codecov/pull/177)]
+- chore(deps): update dependency go to v1.26.0 [[#176](https://github.com/woodpecker-ci/plugin-codecov/pull/176)]
+- chore(deps): update dependency go to v1.25.7 [[#175](https://github.com/woodpecker-ci/plugin-codecov/pull/175)]
+- chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.8.1 [[#174](https://github.com/woodpecker-ci/plugin-codecov/pull/174)]
+
+### Misc
+
+- Don't recompile golangci [[#182](https://github.com/woodpecker-ci/plugin-codecov/pull/182)]
+
 ## [2.2.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.2) - 2026-01-20
 
 ### ❤️ Thanks to all contributors! ❤️
