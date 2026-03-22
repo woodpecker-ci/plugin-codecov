@@ -12,6 +12,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update golangci/golangci-lint docker tag to v2.11.4 [[#191](https://github.com/woodpecker-ci/plugin-codecov/pull/191)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.11.4 [[#190](https://github.com/woodpecker-ci/plugin-codecov/pull/190)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.11.3 [[#189](https://github.com/woodpecker-ci/plugin-codecov/pull/189)]
 - chore(deps): update golangci/golangci-lint docker tag to v2.11.3 [[#188](https://github.com/woodpecker-ci/plugin-codecov/pull/188)]
