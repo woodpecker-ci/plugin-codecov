@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.3.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.0) - 2026-03-28
+## [2.3.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.0) - 2026-04-08
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -34,6 +34,7 @@
 
 ### Misc
 
+- chore(deps): update dependency go to v1.26.2 [[#195](https://github.com/woodpecker-ci/plugin-codecov/pull/195)]
 - Don't recompile golangci [[#182](https://github.com/woodpecker-ci/plugin-codecov/pull/182)]
 
 ## [2.2.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.2.2) - 2026-01-20
