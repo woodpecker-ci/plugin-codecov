@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.1) - 2026-04-11
+
+### 📦️ Dependency
+
+- chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.8.2 [[#196](https://github.com/woodpecker-ci/plugin-codecov/pull/196)]
+
 ## [2.3.0](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.0) - 2026-04-08
 
 ### ❤️ Thanks to all contributors! ❤️
