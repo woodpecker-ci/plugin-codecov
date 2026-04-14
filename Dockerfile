@@ -1,15 +1,16 @@
-FROM golang:1.26-alpine AS build
+FROM --platform=$BUILDPLATFORM golang:1.26-alpine AS build
 
 # renovate: datasource=github-releases depName=codecov/uploader
 ARG UPLOADER_VERSION=v0.8.0
 
 WORKDIR /src
 COPY . .
+ARG TARGETOS TARGETARCH
 
 RUN apk add -q --no-cache ca-certificates curl
-RUN go build -ldflags '-s -w -extldflags "-static"' -o plugin-codecov
-RUN if [ $(arch) = "aarch64" ] ; then curl -sLf https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-aarch64 -o codecov; fi
-RUN if [ $(arch) = "x86_64" ] ; then curl -sLf https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-linux -o codecov; fi
+RUN GOOS=linux GOARCH=$TARGETARCH go build -ldflags '-s -w -extldflags "-static"' -o plugin-codecov
+RUN if [ $TARGETARCH = "arm64" ] ; then curl -sLf https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-aarch64 -o codecov; fi
+RUN if [ $TARGETARCH = "amd64" ] ; then curl -sLf https://github.com/codecov/uploader/releases/download/${UPLOADER_VERSION}/codecov-linux -o codecov; fi
 RUN chmod +x codecov plugin-codecov
 
 FROM scratch
