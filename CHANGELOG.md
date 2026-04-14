@@ -1,6 +1,14 @@
 # Changelog
 
-## [2.3.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.1) - 2026-04-11
+## [2.3.1](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.1) - 2026-04-14
+
+### ❤️ Thanks to all contributors! ❤️
+
+@6543
+
+### 🐛 Bug Fixes
+
+- Docker build via cross-compile [[#198](https://github.com/woodpecker-ci/plugin-codecov/pull/198)]
 
 ### 📦️ Dependency
 
