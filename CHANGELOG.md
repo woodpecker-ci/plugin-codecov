@@ -4,6 +4,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update golangci/golangci-lint docker tag to v2.12.0 [[#203](https://github.com/woodpecker-ci/plugin-codecov/pull/203)]
 - chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.1.0 [[#202](https://github.com/woodpecker-ci/plugin-codecov/pull/202)]
 - chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v4.1.1 [[#199](https://github.com/woodpecker-ci/plugin-codecov/pull/199)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.8.3 [[#200](https://github.com/woodpecker-ci/plugin-codecov/pull/200)]
