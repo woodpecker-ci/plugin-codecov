@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.2) - 2026-05-09
+## [2.3.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.2) - 2026-05-13
 
 ### 📦️ Dependency
 
+- fix(deps): update module github.com/urfave/cli/v3 to v3.9.0 [[#209](https://github.com/woodpecker-ci/plugin-codecov/pull/209)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.12.2 [[#208](https://github.com/woodpecker-ci/plugin-codecov/pull/208)]
 - chore(deps): update golangci/golangci-lint docker tag to v2.12.2 [[#207](https://github.com/woodpecker-ci/plugin-codecov/pull/207)]
 - chore(deps): update go toolchain directive to v1.26.3 [[#206](https://github.com/woodpecker-ci/plugin-codecov/pull/206)]
