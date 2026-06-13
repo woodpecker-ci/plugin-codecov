@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.2) - 2026-06-11
+## [2.3.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.2) - 2026-06-13
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit non-major to v3.8.4 [[#212](https://github.com/woodpecker-ci/plugin-codecov/pull/212)]
 - fix(deps): update golang deps non-major to v3.9.1 [[#211](https://github.com/woodpecker-ci/plugin-codecov/pull/211)]
 - chore(deps): update golang deps non-major to v1.26.4 [[#210](https://github.com/woodpecker-ci/plugin-codecov/pull/210)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.9.0 [[#209](https://github.com/woodpecker-ci/plugin-codecov/pull/209)]
