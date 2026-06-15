@@ -4,4 +4,4 @@ go 1.22
 
 toolchain go1.26.4
 
-require github.com/urfave/cli/v3 v3.9.1
+require github.com/urfave/cli/v3 v3.10.0
