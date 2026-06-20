@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.2) - 2026-06-15
+## [2.3.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.2) - 2026-06-20
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit non-major to v0.49.0 [[#214](https://github.com/woodpecker-ci/plugin-codecov/pull/214)]
 - fix(deps): update golang deps non-major to v3.10.0 [[#213](https://github.com/woodpecker-ci/plugin-codecov/pull/213)]
 - chore(deps): update pre-commit non-major to v3.8.4 [[#212](https://github.com/woodpecker-ci/plugin-codecov/pull/212)]
 - fix(deps): update golang deps non-major to v3.9.1 [[#211](https://github.com/woodpecker-ci/plugin-codecov/pull/211)]
