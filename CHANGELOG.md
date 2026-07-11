@@ -4,6 +4,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.9.5 [[#222](https://github.com/woodpecker-ci/plugin-codecov/pull/222)]
 - chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.1.1 [[#221](https://github.com/woodpecker-ci/plugin-codecov/pull/221)]
 
 ## [2.3.2](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.2) - 2026-07-08
