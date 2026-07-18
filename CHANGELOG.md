@@ -4,6 +4,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.49.1 [[#225](https://github.com/woodpecker-ci/plugin-codecov/pull/225)]
 - chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v4.1.2 [[#224](https://github.com/woodpecker-ci/plugin-codecov/pull/224)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.9.5 [[#222](https://github.com/woodpecker-ci/plugin-codecov/pull/222)]
 - chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.1.1 [[#221](https://github.com/woodpecker-ci/plugin-codecov/pull/221)]
