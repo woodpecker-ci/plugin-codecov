@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.3) - 2026-07-25
+## [2.3.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.3) - 2026-08-01
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook hadolint/hadolint to v2.15.1 [[#227](https://github.com/woodpecker-ci/plugin-codecov/pull/227)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.9.6 [[#226](https://github.com/woodpecker-ci/plugin-codecov/pull/226)]
 - chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.49.1 [[#225](https://github.com/woodpecker-ci/plugin-codecov/pull/225)]
 - chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v4.1.2 [[#224](https://github.com/woodpecker-ci/plugin-codecov/pull/224)]
