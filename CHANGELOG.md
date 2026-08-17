@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.3) - 2026-08-14
+## [2.3.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.3) - 2026-08-17
 
 ### 📦️ Dependency
 
+- fix(deps): update module github.com/urfave/cli/v3 to v3.11.0 [[#229](https://github.com/woodpecker-ci/plugin-codecov/pull/229)]
 - chore(deps): update go toolchain directive to v1.26.6 [[#228](https://github.com/woodpecker-ci/plugin-codecov/pull/228)]
 - chore(deps): update pre-commit hook hadolint/hadolint to v2.15.1 [[#227](https://github.com/woodpecker-ci/plugin-codecov/pull/227)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.9.6 [[#226](https://github.com/woodpecker-ci/plugin-codecov/pull/226)]
