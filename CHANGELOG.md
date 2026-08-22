@@ -4,6 +4,7 @@
 
 ### 📦️ Dependency
 
+- chore(deps): update golang docker tag to v1.27 [[#232](https://github.com/woodpecker-ci/plugin-codecov/pull/232)]
 - chore(deps): update docker.io/golang docker tag to v1.27 [[#231](https://github.com/woodpecker-ci/plugin-codecov/pull/231)]
 - chore(deps): update go toolchain directive to v1.27.0 [[#230](https://github.com/woodpecker-ci/plugin-codecov/pull/230)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.11.0 [[#229](https://github.com/woodpecker-ci/plugin-codecov/pull/229)]
