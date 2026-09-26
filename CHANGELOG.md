@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.3) - 2026-09-21
+## [2.3.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.3) - 2026-09-26
 
 ### 📦️ Dependency
 
+- chore(deps): update docker.io/woodpeckerci/plugin-docker-buildx docker tag to v6.1.2 [[#241](https://github.com/woodpecker-ci/plugin-codecov/pull/241)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.13.0 [[#240](https://github.com/woodpecker-ci/plugin-codecov/pull/240)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.9.8 [[#239](https://github.com/woodpecker-ci/plugin-codecov/pull/239)]
 - fix(deps): update module github.com/urfave/cli/v3 to v3.12.0 [[#238](https://github.com/woodpecker-ci/plugin-codecov/pull/238)]
