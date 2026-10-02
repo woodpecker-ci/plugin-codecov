@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.4) - 2026-10-02
+
+### 📦️ Dependency
+
+- fix(deps): update module github.com/urfave/cli/v3 to v3.14.0 [[#245](https://github.com/woodpecker-ci/plugin-codecov/pull/245)]
+
 ## [2.3.3](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.3) - 2026-09-26
 
 ### 📦️ Dependency
