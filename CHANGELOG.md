@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.4) - 2026-10-21
+## [2.3.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.4) - 2026-10-25
 
 ### 📦️ Dependency
 
+- chore(deps): update pre-commit hook igorshubovych/markdownlint-cli to v0.50.0 [[#253](https://github.com/woodpecker-ci/plugin-codecov/pull/253)]
 - chore(deps): update go toolchain directive to v1.27.3 [[#252](https://github.com/woodpecker-ci/plugin-codecov/pull/252)]
 - chore(deps): update golangci/golangci-lint docker tag to v2.15.0 [[#250](https://github.com/woodpecker-ci/plugin-codecov/pull/250)]
 - chore(deps): update pre-commit hook golangci/golangci-lint to v2.15.0 [[#251](https://github.com/woodpecker-ci/plugin-codecov/pull/251)]
