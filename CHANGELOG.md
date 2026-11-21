@@ -1,9 +1,10 @@
 # Changelog
 
-## [2.3.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.4) - 2026-11-14
+## [2.3.4](https://github.com/woodpecker-ci/plugin-codecov/releases/tag/v2.3.4) - 2026-11-21
 
 ### 📦️ Dependency
 
+- chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v4.1.4 [[#257](https://github.com/woodpecker-ci/plugin-codecov/pull/257)]
 - chore(deps): update pre-commit hook rbubley/mirrors-prettier to v3.10.1 [[#256](https://github.com/woodpecker-ci/plugin-codecov/pull/256)]
 - chore(deps): update go toolchain directive to v1.27.4 [[#255](https://github.com/woodpecker-ci/plugin-codecov/pull/255)]
 - chore(deps): update docker.io/woodpeckerci/plugin-ready-release-go docker tag to v4.1.3 [[#254](https://github.com/woodpecker-ci/plugin-codecov/pull/254)]
